@@ -7,110 +7,73 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Mon Beau Lapin</title>
     <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTkuNmqZQhfGWbBx-dvZ9IdRJKTcFUsbGNk0M_UlI50WuZcY0-y">
+
 </head>
-
 <body>
-    <form class="needs-validation" novalidate>
-        <div class="form-row">
-          <div class="col-md-4 mb-3">
-            <label for="validationCustom01">First name</label>
-            <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <label for="validationCustom02">Last name</label>
-            <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <label for="validationCustomUsername">Username</label>
-            <div class="input-group">
-              <div class="input-group-prepend">
-                <span class="input-group-text" id="inputGroupPrepend">@</span>
+    <header> 
+        <section class="en-tete">
+
+        <!-- TITRE -->
+        <!--<h1 class="text-center font-weight-bold">Mon beau lapin</h1>-->
+
+
+        <div class="col-xs-3 en-tete text" >
+            <div id="titre_principal" class= "text-center">
+                  <h1 class="font-weight-bold">Mon beau lapin</h1>
               </div>
-              <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-              <div class="invalid-feedback">
-                Please choose a username.
-              </div>
-            </div>
-          </div>
         </div>
-        <div class="form-row">
-          <div class="col-md-6 mb-3">
-            <label for="validationCustom03">City</label>
-            <input type="text" class="form-control" id="validationCustom03" required>
-            <div class="invalid-feedback">
-              Please provide a valid city.
+
+
+        <!-- BARRE DE NAVIGATION -->
+        <div class="container">
+        <nav class="navbar navbar-expand-lg col-xs-9">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Généralités</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Journée type du lapin</a>
+                            <a class="dropdown-item" href="#">Du jardin à l'urbain</a>
+                            <a class="dropdown-item" href="#">Un lapin dans la ville</a>
+                            <a class="dropdown-item" href="#">Espérance de vie du lapin</a>
+                            <a class="dropdown-item" href="#">Adopter un lapin</a>
+                            <a class="dropdown-item" href="#">Préparer l'arrivée de mon lapin</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Habitat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Alimentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Santé</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Education</a>
+                    </li>        
+                </ul>
             </div>
-          </div>
-          <div class="col-md-3 mb-3">
-            <label for="validationCustom04">State</label>
-            <select class="custom-select" id="validationCustom04" required>
-              <option selected disabled value="">Choose...</option>
-              <option>...</option>
-            </select>
-            <div class="invalid-feedback">
-              Please select a valid state.
-            </div>
-          </div>
-          <div class="col-md-3 mb-3">
-            <label for="validationCustom05">Zip</label>
-            <input type="text" class="form-control" id="validationCustom05" required>
-            <div class="invalid-feedback">
-              Please provide a valid zip.
-            </div>
-          </div>
+        </nav>
         </div>
-        <div class="form-group">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-            <label class="form-check-label" for="invalidCheck">
-              Agree to terms and conditions
-            </label>
-            <div class="invalid-feedback">
-              You must agree before submitting.
-            </div>
-          </div>
-        </div>
-        <button class="btn btn-primary" type="submit">Submit form</button>
-      </form>
-      
-      <script>
-      // Example starter JavaScript for disabling form submissions if there are invalid fields
-      (function() {
-        'use strict';
-        window.addEventListener('load', function() {
-          // Fetch all the forms we want to apply custom Bootstrap validation styles to
-          var forms = document.getElementsByClassName('needs-validation');
-          // Loop over them and prevent submission
-          var validation = Array.prototype.filter.call(forms, function(form) {
-            form.addEventListener('submit', function(event) {
-              if (form.checkValidity() === false) {
-                event.preventDefault();
-                event.stopPropagation();
-              }
-              form.classList.add('was-validated');
-            }, false);
-          });
-        }, false);
-      })();
-      </script>
+        </section>
+    </header>
 
+    <!-- BANNIERE -->
+    <img src="images/banniere2.jpg" class="img-fluid" alt="Responsive image">
 
-
-
-
-
-
-
-
-
-
-
+    <!-- TEXTE -->
+    <div class="container-fluid">
+        <p class="phrase font-weight-bold text-center">Vous souhaitez tout savoir sur nos amis les lapins, alors bienvenue.</p>
+    
+        <p class="espace">Le lapin de compagnie est un animal affectueux qui a trouvé sa place au sein des foyers. Intelligent et sensible, il requiert l’attention et l’affection de ses maîtres.</p> 
+        <p class="espace"> Mais <em class="text-danger font-weight-bold">adopter un lapin n’est pas une décision à prendre à la légère.</em> Renseignez-vous bien avant de vous lancer pour voir si le lapin de compagnie peut être un animal qui vous correspond et pour bien préparer son arrivée.</p> 
+        <p class="espace"> Ce site constitue une mine d’informations tant en vue de son acquisition que pour son entretien au quotidien: éducation, alimentation, santé,...</p>
+    </div>
+    
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

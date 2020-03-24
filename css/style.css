@@ -30,7 +30,7 @@
 h1 {
     color: #ffffff;
     font-family: 'polTangerine', "Comic Sans MS", serif;
-    font-size: 6rem;
+    font-size: 9vw;
     padding-top: 20px;
     /*margin-bottom: -20px;*/
 }
@@ -41,23 +41,22 @@ h1 {
 }
 
 .container {
-    background-color: #EDF8F3;
 }
 
 p {
-    font-size: 25px;
+    font-size: 3vw;
     padding-right: 10px;
     padding-left: 10px;
 }
 
 .phrase {
-    font-size: 35px;
+    font-size: 4vw;
     padding-top: 20px;
 }
 
 .container-fluid {
+    background-color: #EDF8F3;
     font-family: 'polYrsa', "Comic Sans MS", serif;
 }
-
 
 
