@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'polTangerine';
+    src: url('../polTangerine/tangerine_bold-webfont.woff');
+    src: url('../polTangerine/tangerine_bold-webfont.woff2');
+    src: url('../polTangerine/tangerine_regular-webfont.woff');
+    src: url('../polTangerine/tangerine_regular-webfont.woff2');
+}
+@font-face {
+    font-family: 'polYrsabold';
+    src: url('../polYrsa/yrsa-bold-webfont.woff');
+    src: url('../polYrsa/yrsa-bold-webfont.woff2');
+    font-family: 'polYrsalight';
+    src: url('../polYrsa/yrsa-light-webfont.woff');
+    src: url('../polYrsa/yrsa-light-webfont.woff2');
+    font-family: 'polYrsamedium';
+    src: url('../polYrsa/yrsa-medium-webfont.woff');
+    src: url('../polYrsa/yrsa-medium-webfont.woff2');
+    font-family: 'polYrsaregular';
+    src: url('../polYrsa/yrsa-regular-webfont.woff');
+    src: url('../polYrsa/yrsa-regular-webfont.woff2');
+    font-family: 'polYrsasemibold';
+    src: url('../polYrsa/yrsa-semibold-webfont.woff');
+    src: url('../polYrsa/yrsa-semibold-webfont.woff2');
+}
+
+.en-tete {
+    background-color: #4FB68D;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'polTangerine', "Comic Sans MS", serif;
+    font-size: 6rem;
+    padding-top: 20px;
+    /*margin-bottom: -20px;*/
+}
+
+.navbar {
+    font-family: 'polYrsa', "Comic Sans MS", serif;
+    font-size: 25px;
+}
+
+.container {
+    background-color: #EDF8F3;
+}
+
+p {
+    font-size: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.phrase {
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.container-fluid {
+    font-family: 'polYrsa', "Comic Sans MS", serif;
+}
+
+
+
