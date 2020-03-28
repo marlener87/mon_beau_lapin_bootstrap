@@ -1,1 +1,1 @@
-# mon_beau_lapin-bootstrap
+# mon_beau_lapin_bootstrap
