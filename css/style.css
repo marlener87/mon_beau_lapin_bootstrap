@@ -23,6 +23,7 @@
     src: url('../polYrsa/yrsa-semibold-webfont.woff2');
 }
 
+/* EN-TETE */
 .en-tete {
     background-color: #4FB68D;
 }
@@ -30,33 +31,90 @@
 h1 {
     color: #ffffff;
     font-family: 'polTangerine', "Comic Sans MS", serif;
-    font-size: 9vw;
+    font-size: 7vw;
     padding-top: 20px;
-    /*margin-bottom: -20px;*/
+    margin-bottom: -10px;
 }
 
 .navbar {
     font-family: 'polYrsa', "Comic Sans MS", serif;
-    font-size: 25px;
+    font-size: 2vw;
 }
 
-.container {
-}
 
+/* BODY */
 p {
-    font-size: 3vw;
+    font-size: 2vw;
     padding-right: 10px;
     padding-left: 10px;
+    margin-bottom: 5px;
 }
 
 .phrase {
-    font-size: 4vw;
+    font-size: 3vw;
     padding-top: 20px;
 }
 
 .container-fluid {
     background-color: #EDF8F3;
     font-family: 'polYrsa', "Comic Sans MS", serif;
+    padding-bottom: 20px;
 }
 
 
+
+
+/* FOOTER */
+.footer{
+    background-color: #e8ffe6;
+    padding-top: 10px; 
+}
+.pfoot {
+    font-size: 1.5vw;
+}
+.imgFooter{
+    max-width: 100%;
+    height: auto;
+    padding-right: 10px;
+}
+.row{
+    margin-bottom: -20px;
+}
+
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+    .navbar{
+        top: -40px;
+        margin-bottom: -40px;
+    }
+    .nav-link{
+        font-size: 15px;
+    }
+    .dropdown-menu{
+        font-size:10px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .imgFooter {
+        padding-right: 5px;
+        margin-bottom: 0;
+        margin-top: -15px;
+    }
+    ul.img-fluid{
+        margin-bottom: 0;
+    }
+    .row{
+        margin-bottom: -30px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 900px){
+    .navbar{
+        padding-top: 50px;
+        margin-bottom: -40px;
+    }
+}
